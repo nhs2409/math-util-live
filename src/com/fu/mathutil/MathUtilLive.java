@@ -1,4 +1,3 @@
-
 package com.fu.mathutil;
 
 /**
@@ -9,10 +8,13 @@ package com.fu.mathutil;
 // khi ta cung cấp tiện ích cho nơi khác xài, đó là lúc ta không cần nhớ cái gì
 // cho riêng ta, hàm static giúp ta làm điều này
 public class MathUtilLive {
-    
+
     public static void main(String[] args) {
         long result = getFactorial(5);
         System.out.println(result);
+        System.out.println("ket qua la "+result);
+        System.out.println("the final result la "+ result);
+
     }
 
     //n != 1.2.3.4.5.6 ... n
